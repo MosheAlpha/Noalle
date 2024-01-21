@@ -247,9 +247,9 @@ p {
 }
 
 .tm-img-container-2 {
-  background-image: url(../img/girl-01.jpg);
-  background-position: top center;
-  margin-left: 8px;
+  background-image: url(../img/main-page-img-2.jpg);
+  background-size: cover;
+  /* margin-left: 8px; */
 }
 
 .tm-img-container-3 {
@@ -612,6 +612,11 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
   .tm-section-2-left {
     width: 100%;
     height: 560px;
+
+  }
+
+  .tm-section-2-left:first-of-type {
+    margin-bottom: 40px;
   }
 
   .tm-section-3-inner {
